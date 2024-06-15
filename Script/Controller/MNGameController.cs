@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using UnityEngine.UI;
 
 public class MNGameController : MonoBehaviour
 {
-    public GameObject MNGame;
+
     public GameObject DialoguePanel;
     public InputField inputField;
     public TextMeshProUGUI resultText;
@@ -21,10 +22,11 @@ public class MNGameController : MonoBehaviour
     public float timeToStart = 3f;
     public string correctAnswer;
     public float timToRand = 8f;
-    private bool IsDoneMNGame;
+    public bool IsDoneMNGame;
     private bool isStartMNGame;
     public bool isGameOver;
-    UIManager ui;
+    int countToNextQuest = 1;
+    UIMiniGController uMC;
 
     public int score = 0;
     public int Wrong = 0;
@@ -34,16 +36,24 @@ public class MNGameController : MonoBehaviour
     private List<string> chosenStrings = new List<string>();
 
     Laptop lap;
-
+    QuestManagerment quest;
     //CountDown
     public TextMeshProUGUI countdownTxt;
     public TextMeshProUGUI BeginText;
+
+    public AudioSource aus;
+    public AudioClip CorrectSound;
+    public AudioClip WrongSound;
+
+    EvenTrigger eventrigger;
+    EvenScript evenScript;
+
     void Start()
     {
-
-        ui = FindObjectOfType<UIManager>();
+        uMC = FindObjectOfType<UIMiniGController>();
         lap = FindObjectOfType<Laptop>();
-
+        quest = FindObjectOfType<QuestManagerment>();
+        evenScript = FindObjectOfType<EvenScript>();
         // Lắng nghe sự kiện khi nội dung của ô nhập liệu thay đổi
 
 
@@ -73,7 +83,7 @@ public class MNGameController : MonoBehaviour
             if (isGameOver)
             {
                 timToRand = 0;
-                ui.ShowGameLose(true);
+                uMC.ShowGameLose(true);
                 return;
             }
 
@@ -88,8 +98,6 @@ public class MNGameController : MonoBehaviour
         // Thiết lập sự kiện cho nút xác nhận
 
         CheckInput();
-
-  
     }
     IEnumerator CountDownCoroutine()
     {
@@ -102,7 +110,6 @@ public class MNGameController : MonoBehaviour
             countdownTxt.text = countdownvalue.ToString();
             yield return new WaitForSeconds(1);
             countdownvalue--;
-
         }
         if (countdownvalue < 0)
         {
@@ -110,23 +117,16 @@ public class MNGameController : MonoBehaviour
             BeginText.text = "Start";
             yield return new WaitForSeconds(1);
             Destroy(BeginText);
-            lap.TurnOffFreamDesktopMNGame();
+            lap.TurnOffCountDown();
             isStartMNGame = true;
             StartMNGame();
         }
-            
-        
-        
-
-
-
     }
 
     public void StartMNGame()
     {
         lap.TurnOnMNGAME();
     }
-
     public void CheckInput()
     {
         string colortxt = "";
@@ -145,28 +145,33 @@ public class MNGameController : MonoBehaviour
                 countWrong++;
                 isCorrect = false;
             }
-    
         }
         if (isCorrect && userInput.Equals(correctAnswer, System.StringComparison.OrdinalIgnoreCase))
         {
+            if(aus && CorrectSound)
+            {
+                aus.PlayOneShot(CorrectSound);
+            }
             // Question.color = Color.green;
             score += 1;
             resultText.text = "Đáp án đúng! Điểm số: " + score;
             inputField.text = ""; // Xóa nội dung của InputField
-
             timToRand = 0;
             Debug.Log("Dung");
         }
         else if(!isCorrect && countWrong == 3 && !userInput.Equals(correctAnswer, System.StringComparison.OrdinalIgnoreCase))
         {
+            if (aus && WrongSound)
+            {
+                aus.PlayOneShot(WrongSound);
+            }
             Wrong++;
             ErrorText.text = "Error " + Wrong;
             resultText.text ="Sai! thu lai voi cau khac";
             inputField.text = "";
-
             timToRand = 0;
             Debug.Log("Sai");
-            if(Wrong >= 3)
+            if(Wrong >= 100)
             {
                 isGameOver = true;
             }
@@ -188,9 +193,12 @@ public class MNGameController : MonoBehaviour
         if (availableStrings.Length == 0)
         {
             isGameOver = true;
-            ui.ShowGameWin(true);
-            // Xử lý khi không có chuỗi nào để chọn nữa
-
+            uMC.ShowGameWin(true);
+            if(countToNextQuest == 1)
+            {
+                quest.NextQuest();
+                countToNextQuest++;
+            }
             return null;
         }
 
@@ -213,13 +221,7 @@ public class MNGameController : MonoBehaviour
         correctAnswer = RamdomString();
         Question.text = correctAnswer;
     }
-    public void ShowMNGame(bool isShow)
-    {
-        if(MNGame != null)
-        {
-            MNGame.SetActive(isShow);
-        }
-    }
+
 
 }
 

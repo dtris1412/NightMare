@@ -3,22 +3,30 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 public class NPC : MonoBehaviour
 {
     public GameObject dialoguePanle;
     public TextMeshProUGUI dialogueText;
     public string[] dialogue;
-
     public GameObject contBotton;
 
     private int index;
     private float wordSpeed = 0.02f;
     public bool playerIsClose;
-    
+    int count = 1;
+    QuestManagerment quest;
+    Door door;
 
+    private void Start()
+    {
+        quest = FindObjectOfType<QuestManagerment>();
+        door = FindObjectOfType<Door>();
+    }
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose == true)
+
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose == true)
         {
 
             if (dialoguePanle.activeInHierarchy)
@@ -26,13 +34,13 @@ public class NPC : MonoBehaviour
                 ZeroText();
             }
             else
-            { 
+            {
                 dialoguePanle.SetActive(true);
-                
+
                 StartCoroutine(Typing());
             }
         }
-        if(dialogueText.text == dialogue[index])
+        if (dialogueText.text == dialogue[index])
         {
             contBotton.SetActive(true);
         }
@@ -41,7 +49,7 @@ public class NPC : MonoBehaviour
     {
         dialogueText.text = "";
         index = 0;
-        
+
         dialoguePanle.SetActive(false);
     }
     IEnumerator Typing()
@@ -55,7 +63,7 @@ public class NPC : MonoBehaviour
     public void NextLine()
     {
         contBotton.SetActive(false);
-        if(index < dialogue.Length - 1)
+        if (index < dialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -64,21 +72,31 @@ public class NPC : MonoBehaviour
         else
         {
             ZeroText();
+            QuestDone();
+            count++;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             playerIsClose = true;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             playerIsClose = false;
             ZeroText();
+        }
+    }
+    private void QuestDone()
+    {
+        if(count == 1)
+        {
+            quest.NextQuest();
+            door.canOpen = true;
         }
     }
 

@@ -1,4 +1,4 @@
-
+﻿
 using Inventory.Model;
 using Inventory.UI;
 using System;
@@ -22,11 +22,17 @@ namespace Inventory
         [SerializeField] private AudioClip dropClip;
         [SerializeField] private AudioSource audioSource;
 
+ 
+
+
+
         private void Start()
         {
+           DontDestroyOnLoad(gameObject);
             //inventoryUI = GetComponentInChildren<UIInventoryPage>();
             PrepareUI();
             PrepareInventoryData();
+
         }
 
         private void PrepareInventoryData()
@@ -180,8 +186,6 @@ namespace Inventory
             }
 
         }
-      
-
     }
 
 }

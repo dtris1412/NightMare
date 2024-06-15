@@ -7,8 +7,11 @@ public class Door : MonoBehaviour
     // Start is called before the first frame update
     SpriteRenderer sr;
     public Sprite passive, active;
+    public bool canOpen = false;
+    public GameObject barrier;
     void Start()
     {
+
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -21,8 +24,11 @@ public class Door : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            sr.sprite = active;
-
+            if(canOpen)
+            {
+                Destroy(barrier);
+                sr.sprite = active;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

@@ -9,9 +9,9 @@ public class CharacterStatHealthModifierSO : CharacterStatModifierSO
     {
         Player health = character.GetComponent<Player>();
 
-        if (health != null)
+/*        if (health != null)
         {
             health.AddHealth((float)val);
-        }
+        }*/
     }
 }

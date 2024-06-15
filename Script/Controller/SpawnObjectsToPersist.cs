@@ -12,7 +12,7 @@ public class SpawnObjectsToPersist : MonoBehaviour
         var existingObject = FindObjectsOfType<GameController>();
         if(existingObject.Length == 0 )
         {
-            Instantiate(ObjectToPersistPrefabs, new Vector3(0, 0, 0), Quaternion.identity);
+            Instantiate(ObjectToPersistPrefabs, new Vector3(-18, -1f, 0), Quaternion.identity);
             
         }
     }

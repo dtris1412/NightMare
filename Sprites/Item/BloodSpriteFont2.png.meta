@@ -1,0 +1,5166 @@
+fileFormatVersion: 2
+guid: 6bbde2ee144bdc5479eb9fc018bb2555
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodSpriteFont2_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 991
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bcefcfd754de848bfc1b194612ec0e
+      internalID: -1088103355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1061
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fba66ac1d656348ac52c64ce5d5e91
+      internalID: 877043852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1061
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ca965ecb8f524dbc0f3042b4aa7d3
+      internalID: -1218179943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1001
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa53e0176d39a4abfdd368c8b2dc16
+      internalID: 2145250872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 989
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c43f01bae9d08849a3380e284c7978a
+      internalID: 1674777515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1001
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2c2436e55fb8248a07df49c80cc3e3
+      internalID: 730082490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_6
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 987
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf44f1ae9256cbb46a95edf4f25b48d1
+      internalID: -554582665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1045
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2771a71854996f74897723521491c9fb
+      internalID: -1635691426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 986
+        width: 63
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41beabbfb1c8f2b47b88dadb97714e29
+      internalID: 2110967597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 987
+        width: 59
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7442cba231c844591c4fa7394ad71e
+      internalID: 943499225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1047
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fdcd48a034ae445a0306d7587d0005
+      internalID: 1838554465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_11
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1012
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402af3132723fb144a875c6efaf67e64
+      internalID: 279926925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_12
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 994
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b072cc375fb304ba9d0c9a1fd7febe
+      internalID: 1474611902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_13
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1006
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40252d6a01f23bc47a662edabea2f115
+      internalID: 750503100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_14
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 999
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bf8a8835dd17545b7625f6767eac57
+      internalID: -932889572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_15
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 995
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc587d212724f9741848fff894a3f02c
+      internalID: -1173927409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_16
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1006
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1811010520cd245ad9af58e4762bf9
+      internalID: 248210715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_17
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1012
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b79af9c458ad2479ce958057d1ed87
+      internalID: 1160393269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_18
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1042
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fba3c3505c8c4b88149e2dac5f144
+      internalID: 1886080650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_19
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1045
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d2938a313318d4fbb4a895a0afb544
+      internalID: 958170313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_20
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1001
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82585055a7597f144a59c02babe8def7
+      internalID: 1428359980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_21
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1011
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde2b4f27e0985499bb62e1a1231c70
+      internalID: -1032538691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 878
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0188ec0c538292479f7890560569a8b
+      internalID: 233019511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 872
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621e5e3e3bde5ae428b57e43c6860d67
+      internalID: 425262739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_24
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 934
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760edd34382b5024499072fa1ad80c64
+      internalID: 1664171645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_25
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 972
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195b9d7e3e644474ba35c184d020fc14
+      internalID: -1961062236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_26
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 942
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010b2ea39d580854f98108ee25f947e3
+      internalID: -594025168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_27
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 958
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f66507904a7a504db2c36f462026725
+      internalID: -1995650573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_28
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 889
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0b135bd6bc9dd438191d46560006b0
+      internalID: 52239053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_29
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 878
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a417129f2e8cb34c91eb0711512e2ff
+      internalID: -1525971001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_31
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 967
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7bc4aa6d07e3141abe6cb7dbb24bc1
+      internalID: -1084159661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_32
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 893
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2343986c254d24149b20fb479f938ed7
+      internalID: 1137087540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_33
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 967
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c14b05539ff614ab7e2f7649133640
+      internalID: -1290273458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_34
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 895
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69d4a8b05092a4987ea098999f16db
+      internalID: 593323182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_35
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 887
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173aad91aeee1d74ea282893b4e574eb
+      internalID: -1710697782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 883
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918bad36eb5edcf43b3d4bf3ec654fb6
+      internalID: -1243161006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 876
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3d12701cf842e41ab38ccf424439e7
+      internalID: -193164722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_38
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 881
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8a489a01671bf4586b602e9cc91741
+      internalID: -1652656962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_39
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 902
+        width: 75
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf558d174f9a1447aed8d47eac2ad5a
+      internalID: -581361454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_40
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 895
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1ca036235602040b11defe200ed15f
+      internalID: 1864826231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_41
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 896
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec2fbae889e6bb47a331b9022877266
+      internalID: 696959908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_42
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 958
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0721f452319312e42825d991b51c3baa
+      internalID: -941086118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_43
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 899
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4600e83a225458f46ac0e412c46aa99f
+      internalID: -401698700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_44
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 899
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a768051d452fb47a4614b49ace0cc9
+      internalID: 1434748789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_45
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 952
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c6d09fae8f9084f8b1930cefd8780d
+      internalID: 1159662064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_46
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 910
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ead3b9aaa03b114c9c88fe27527fb3b
+      internalID: 693525260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_47
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 898
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9423111019024934697a6d75396bab02
+      internalID: 1705879625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_48
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 897
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d992170679672ea4e894e3e039a7646e
+      internalID: 1518930731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_49
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 887
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3f303a5aaf8bc4da533f298ebab708
+      internalID: 269649159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_50
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 903
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a8876b59cce5b4189568fc440191e3
+      internalID: -1696352397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_51
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 892
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf25ea59d69c354e9f7603a6fb6e153
+      internalID: 893200198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_52
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 886
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc9bb762f26e7041a18feff0e9c9d8c
+      internalID: 686451057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_53
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 886
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf462b9686ed1a74fa2926cb6883b126
+      internalID: 348970425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_54
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 774
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23cfb6b7ea8b274fb8f9d22fd91e57c
+      internalID: 1882050297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 794
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6564f927492074599f3ce96a07c40b
+      internalID: 1287823656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_56
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 774
+        width: 74
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedab1bc20b5c824c9f5ed8d595923fe
+      internalID: -1475759193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_57
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 787
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40eeca4b2aec5040909fee1c8fc9b35
+      internalID: 1154257870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_58
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 791
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2163af1bdaf30f547a7f05a24eed9471
+      internalID: -1091416984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 766
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2479748b9ae6668449276935b5efc911
+      internalID: -374189380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_60
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 759
+        width: 64
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2488bacfa781a5c4f91e7e8b372677da
+      internalID: 260806080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_61
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 767
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0268eac7f2429e4db6169f1b42e8b82
+      internalID: -1120925938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_62
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 768
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6874bc091e6eedb478e01a45a6b96a58
+      internalID: -2023364994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_63
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 770
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b19fb4e512743f4b8ad353284d87cdd
+      internalID: 1877258652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_64
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 787
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34f13abe6a69044895d12a6aa1173e
+      internalID: -172039765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_65
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 768
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccaad889fad68a49975037b61362b99
+      internalID: 1215804174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_66
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 780
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe97834fd25624083a68c7e22a03ef
+      internalID: 1313964436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_67
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 770
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58708bf5d1e0ed49be9ade9bc976126
+      internalID: -693574156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_68
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 815
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9d164632160584b975c0abbd5232e8
+      internalID: 1455760399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_69
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 769
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e407989ffcef7754c8e261fe790ac0a9
+      internalID: 1324876226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_70
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 784
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cc56265a14b854f9fd95207adc6228
+      internalID: 1789255349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_71
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 782
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f777126da29d7094b9afac6cfb38b99a
+      internalID: 185643321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_72
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 785
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bff0194a655d594a9b14f0f71bdd07a
+      internalID: 855749319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_73
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 773
+        width: 4
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00777e40690957f4c99e945396046843
+      internalID: -1757275789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_75
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 650
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe50b4c69fa18b46add1d7ec76d8d67
+      internalID: -1947900830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_76
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 663
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5732d66607cc84fa495fb682dd4031
+      internalID: -909202097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_77
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 652
+        width: 79
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5257e24c9708342b6bba9103554e67
+      internalID: -1259387839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_78
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 709
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0abb3a72098f44f95bbcd99446a51f
+      internalID: 1578701782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_79
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 735
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86516cc156ff93a47be9991de1a89888
+      internalID: -1692714632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_81
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 739
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860ebf47a0d2b04eb6d9823a975ffab
+      internalID: -1540126693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_82
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 673
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497aa04a03c1381408aff4fb4f42aa39
+      internalID: 559146912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_83
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 662
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789b2a3bce0cd9d44a5a8b8640e2ca2f
+      internalID: 1417942567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_85
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 665
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af20d5298703ef442a2bb12ca566af30
+      internalID: 1419029818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_86
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 633
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fbda09e6d48c84581872d0dcec6042
+      internalID: 350601640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_87
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 660
+        width: 93
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa75b99df6247d4e8b3d25770cf0b0d
+      internalID: -675495126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_88
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 668
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12a12b3eff6c2f408b7c4ab47cb247f
+      internalID: -1414202005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_89
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 657
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca8ce4c79971ab45899512ca513db8e
+      internalID: 76468382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_91
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 659
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d776a0db6d1b24d4686f6a3f1668414c
+      internalID: -406705696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_92
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 671
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b97aaa5ac351479ad032cb342092f
+      internalID: 1417181719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_93
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 671
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc297daea6d3da44db1795814f62b420
+      internalID: -1097151450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_94
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 661
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c253281e0678b24d888dadc525dd660
+      internalID: 1222736329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_95
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 675
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143f463a6be35474d905fe3dbb176569
+      internalID: 1229612545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_96
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 662
+        width: 75
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bbeb65e8d60ab4d96ff47bf0dc3b75
+      internalID: -1048155162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_97
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 673
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250a86e2a21e1294a97bdb10a8c4e743
+      internalID: 1485850456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_98
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 664
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca8b9f5d4d8d74409b590982016e376
+      internalID: -181583778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_99
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 672
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc55ee3017a9c0643a3213deeb4e60ce
+      internalID: -1759296149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_100
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 671
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0567d1f104b4448924c9f891608f52
+      internalID: -1896290544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_101
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 546
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe48d1b7320de443990780011f51e75
+      internalID: -1448838879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_102
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 659
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc8ce7190979743908e1dde45fb2ae
+      internalID: 567658311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_103
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 568
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d65bca63bca60548aae850bfac87577
+      internalID: -321986412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_104
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 632
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e6305ab3abfb34d81793126e5a1718
+      internalID: 682720118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_105
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 544
+        width: 83
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210c38a9f51d484ca9ca33612ca71e1
+      internalID: -1708760522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_106
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 556
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381ede4ea7fad034c9b6593c75b412e1
+      internalID: 1676297398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_107
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 556
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f984a74f4cc8e4e8a1b5d3d492283e
+      internalID: 2051174942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_108
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 546
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295c87ec1a4129e489c7e0af31cea373
+      internalID: -1234663432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_109
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 570
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1c3215f8c20bd4186c6887a184a2e8
+      internalID: 2074870002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_110
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 553
+        width: 101
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773d06780783c864ea64e13444843ddb
+      internalID: -2056169831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_111
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 561
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea2c5c826223d47aa493e5017be15f
+      internalID: 348822027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_112
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 556
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47d8be6e8983f4fa43cfa86682d333
+      internalID: 367713701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_113
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 556
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee85da24c37c2842a5637bbf353bda4
+      internalID: -235396865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_114
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 558
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05abb06ddfd4d1447b05006b53718484
+      internalID: -1882285805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_115
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 555
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9142e1274afde42976554b21830f04
+      internalID: 173182345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_116
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 555
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7ac37bfaf1b049835c6a1bce379a0
+      internalID: 1635098140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_117
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 556
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3103c69af91824b88069bfc54e2dcd
+      internalID: 1985236325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_118
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 558
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea3389af7755564bba34c3564e2bf4f
+      internalID: 2038589037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_119
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 551
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c64a7b24c8d8b40b73e63f67c117ea
+      internalID: -1197699272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_120
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 602
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b5d19ff6eb1a1408a6eef9c3388b68
+      internalID: -297138282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_121
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 550
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10006b16fd7a8d14da654dbefdfdb730
+      internalID: 1956253572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_122
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 547
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0973b8e32a40c4d8ce19bd4ea97c33
+      internalID: 1425731061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_123
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 526
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf2bf8fb5735e41815853015f11430
+      internalID: 1604701923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_124
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 519
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5133273fa36148445aa2140964d1393d
+      internalID: -1833214140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_125
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 436
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8765ef0f1884ff41b4ac1eb89a864eb
+      internalID: -2020226512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_126
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 539
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352be0f560656b4f86eba5c605f16c3
+      internalID: -835586084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_127
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 493
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a110dce5fb8b44b590528bc517816
+      internalID: 1428029398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_128
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 442
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7e4ba35ff4a9642a1e8065d5d873e2
+      internalID: -130698445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_129
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 437
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8776618870c5e9944be71db7ea4c75cc
+      internalID: 1368311125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_130
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 530
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc10f3bfd75906341b8c084351200a2c
+      internalID: -38436828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_131
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 509
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff347d301dd2de94b997c91d06ce9795
+      internalID: -443635507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_132
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 436
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a2e93f65807f642b7abeb11272bae4
+      internalID: -46744328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_133
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 436
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6e6e6e6fb4dc648a2d7c7658a3ecb9
+      internalID: -1389527018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_134
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 448
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a82cabd7e534549af0a017fa808224
+      internalID: -2033845673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_135
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 517
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acfb42e752e4a945a14dd65ca065273
+      internalID: 1223494838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_136
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 442
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc33a431540fb747ad7300d28f7cf9c
+      internalID: 1987055628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_137
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 444
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6592b055f5fe3324c862b7c74925359a
+      internalID: 881301273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_138
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 446
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f09c18b16dcbb4284cab8ba91e126b
+      internalID: 993886479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_139
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 511
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9181cda68038f441a02dda942b547a4
+      internalID: -888164780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_140
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 454
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde3de6aa565cc41850051ad9af5381
+      internalID: -1948570882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_141
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 455
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d01820d6f9f4c4a8db200be628c747
+      internalID: 37076152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_142
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 491
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b208f1319fda345b3fa792db062e99
+      internalID: -711536949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_143
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 475
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad65e785be97e3448dbf79c9638c891
+      internalID: -1753361609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_144
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 461
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5018719b44be246a80ae9dc6a2c095
+      internalID: 598434461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_145
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 479
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8f0a323afd1b24c896a62558fc9ffb
+      internalID: -1181922917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_146
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 445
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c09729505280df4f888482c8a23600e
+      internalID: 1396773943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 327
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ecebabcf6501d4f8c585a7d828a53d
+      internalID: -1670702060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_148
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 411
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d364f5b2e68346d4684de12696ae402b
+      internalID: -1024266304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_149
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 405
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a8fb65806c9a94ba3ef63cf243b04c
+      internalID: -1591271171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_150
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 327
+        width: 66
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cda2beb11b966428b67839199349ec
+      internalID: -131041058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_151
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 326
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec3130852f04a841b4eb4b8d6dc8b21
+      internalID: 1846843139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_152
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 403
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4014c22cb791f1f46be53acf30f402c8
+      internalID: -1203666126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_153
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 327
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb16826d22be9dc419eb1ed1a990d37d
+      internalID: -829523310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_154
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 326
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c590366217343c44a3c6a0a1ff92964
+      internalID: -810953613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_155
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 326
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4444ade7ba249314a800eb1bcb8ca280
+      internalID: 87772857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_156
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 409
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d491d137c84e3640a2ce3f73aad9560
+      internalID: -1887050120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_157
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 343
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dd329b55686234ea3f5c192909e1ea
+      internalID: -1565442967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_158
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 401
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1161ee8dde9ba6547a4d228502b293ec
+      internalID: -2106847029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_159
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 402
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef279bcc91f1e6459d2cfdadc41249c
+      internalID: -419420740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_160
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 409
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81de719665500549b09435a55935638
+      internalID: -967088100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_161
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 330
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d566e684aa53ffa4b871ab4a6cd1e4dc
+      internalID: 1289256074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_162
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 326
+        width: 74
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f43bc5bfd288e44bdc67b0841742e6
+      internalID: 1638789195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_163
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 339
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afcce30964476042b414066dc16ed1e
+      internalID: 193392738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_164
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 339
+        width: 67
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f07677ba4bbc41a4196efbbd52711
+      internalID: 68511738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_165
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 325
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6c2d3235684c48a932305ec6d2b48
+      internalID: 145197070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_166
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 326
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9aa8f0a7c9d940a169fd26d77d74e
+      internalID: -1252161652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_167
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 405
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49b88d2c9a4b794b860158fbbf81d19
+      internalID: -296873490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_168
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 335
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb0bc9248d490e4ab9c7875e9f86208
+      internalID: -32395380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_169
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 343
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831151655a7505d4a88cf30ff11c7b49
+      internalID: 1783511208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_170
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 344
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bea7e5ec3857b44b0d8a58cd8879df
+      internalID: -1618726633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_171
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 343
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66e4a6229a28724a89b761ee6917c4d
+      internalID: -1791538471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_172
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 293
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb37e51df8881ea49b59dbfe77fa02dc
+      internalID: 496853745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_173
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 231
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fecdb63c13cfc94d9d046a489f54950
+      internalID: -2101908814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_174
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 303
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505190e003333a944a77111feb06e55f
+      internalID: 1225932155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_175
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 213
+        width: 108
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d5102a581cba840a15ff9ee29872f2
+      internalID: -802812555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_176
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 225
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873fc62269ff9cc4e898743666626afb
+      internalID: -1173325250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_177
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 225
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f747ea505c2ba414180b5c8be0e27ff1
+      internalID: -1625367363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_178
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 225
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d457ba961d8cc4ebc5bb6354f0db41
+      internalID: 762879186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_179
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 225
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f2258957a73c44a563e4f4404d845
+      internalID: -1860455717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_180
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 225
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2651cbeefd3cfd44e9fa8bf3ed427402
+      internalID: 537215661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_181
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 215
+        width: 65
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecefc8f496e8ea8478d7432d2446a46f
+      internalID: 1413348294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_182
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 219
+        width: 66
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8bacf1edb26b4c8b088bc5ad0476f
+      internalID: 511440091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_183
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 217
+        width: 65
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b9aee583117f41b5baa771a767aaf
+      internalID: -1743952725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_184
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 218
+        width: 66
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a649be6ac197dfb428d73db5054c0ca0
+      internalID: 180330180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_185
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 302
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180f7b7e25c59454091a4c8ab9524856
+      internalID: -356410884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_186
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 295
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c70bd19ebde7f40b934ce4bca32e6e
+      internalID: 2024826706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_187
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1116a7355fea7449b06d873d2bcd0a
+      internalID: 1532728433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_188
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 216
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62de44e5773e4b4fbb5453978b1a077
+      internalID: 84610435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_189
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 212
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e3797cb62da4c44bdd64710524f49a
+      internalID: -2035570043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_190
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 217
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1288b9a1e920b24a97b610daaf21689
+      internalID: -537485945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_191
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 230
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdfa980c6afc7f4eaac7700ca2440d8
+      internalID: -1263353717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_192
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 230
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48da4fc840a81ff479ed15a6b96e54fa
+      internalID: 603299360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_193
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 253
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16c4a72f12801945b84a31d2c7dc258
+      internalID: 1878874653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_194
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 106
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dab2527e47e2074c9b25bd9cc66d57a
+      internalID: 2030977246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_195
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 106
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c349ea0fe6f2be44a4f8038ef82a9f0
+      internalID: 99721445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_196
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 186
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f1124d8fe4554439ca1591961c3a9d
+      internalID: -1979186574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_197
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 107
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53114c3ff24541499d531fc537691bc
+      internalID: -1302676652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_198
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 107
+        width: 75
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221d49b72cbdc74482dcf7c51874b1e
+      internalID: 2095886185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_199
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 107
+        width: 75
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2313d3955c252d42ac132e9499be1b1
+      internalID: 1580164609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_200
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 194
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0edc5081df8f46a63ccdebe4adc8e
+      internalID: -331450189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_201
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 125
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf11ed7405210f9459224d552475f636
+      internalID: -1079814276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_202
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 181
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01c85f090bff342bcdece85c2543c1
+      internalID: 454050693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_203
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 184
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e60e6bb5f8cd040b31db7365e6e11f
+      internalID: 541591724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_204
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 191
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47522ae8b419a404d9876e41519d2de3
+      internalID: -1402713869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_205
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 105
+        width: 73
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7806ba8d858615d478a3e9d25924854c
+      internalID: 634423861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_206
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 123
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740a1ab6a714394bac89ba687d2b688
+      internalID: -1662092855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_207
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 122
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f637e2faeec70404bbfe12c85e2537c4
+      internalID: -2095120177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_208
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 184
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c99271f4b63d4ca1e49a665149cf4
+      internalID: 1955152131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_209
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 122
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00564e0ebb941fe4594cbfe515c87f52
+      internalID: -1295261389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_210
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 108
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e476a512377cc4f80583c96f57a40d
+      internalID: -490510216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_211
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 187
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426c5346c25dab345957573162117251
+      internalID: -1299061745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_212
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 112
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26b98f7b9029604795ae9c09c8b7d17
+      internalID: 1808300719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_213
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 117
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c729d1211dd05b468d4d93c50f26283
+      internalID: 428205822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_214
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 150
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611ecff8960525b438b3127000917638
+      internalID: -1972148888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_215
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 125
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302a2b068e30b364c8ef13b999193923
+      internalID: -1509936678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_216
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 126
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713a6571c40ecd4083b81f08d4c584b
+      internalID: 116733312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_217
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 125
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896cd62cee74c6f4293e1454e9d8441a
+      internalID: 208792002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_218
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 122
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4cd984418e7484094b530ad7d629d8
+      internalID: 850675306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_219
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8699980c82622c48b691c65ce910417
+      internalID: -10458733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_220
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c09ac79d681944cba44ff2c6c60390
+      internalID: 1206158509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_221
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112aa50670a14e4da6f7323bd774392
+      internalID: 932296059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_222
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 81
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604591dfb1cb2a24183c3cbd1c467f45
+      internalID: -252131375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_223
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 111
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1220ddc07f62a240ba7882628fae246
+      internalID: -1781868812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_224
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 5
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e75b89408731e94cb4b6d1f76c3c6b1
+      internalID: -130508160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_225
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 5
+        width: 67
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46fed5ab3185dd4e89cb6e09f3c88e6
+      internalID: -2079654328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_226
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 5
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30de6861a215ca94292c5902f12e8889
+      internalID: 706129248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_227
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 5
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c50e4545d4f949923724c3632d72a
+      internalID: 937915826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_228
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223852a4e362c1d489c8480080016070
+      internalID: 1165740340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_229
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c2ce65937ea94fa6f1be9a6718cdf
+      internalID: 1973758928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_230
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 0
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfaf61d891024d41928c1f873bedc9e
+      internalID: 831442965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_231
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 74
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc0ed5e4bac7e4cb80107049d64bb9
+      internalID: 139099264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_232
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 33
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3687af411e511c24ab8ee2e9282c420b
+      internalID: 266007814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodSpriteFont2_233
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 35
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e816e8069fdeed4e8d2059bec5b7b3b
+      internalID: 410647451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BloodSpriteFont2_0: -1088103355
+      BloodSpriteFont2_1: 877043852
+      BloodSpriteFont2_10: 1838554465
+      BloodSpriteFont2_100: -1896290544
+      BloodSpriteFont2_101: -1448838879
+      BloodSpriteFont2_102: 567658311
+      BloodSpriteFont2_103: -321986412
+      BloodSpriteFont2_104: 682720118
+      BloodSpriteFont2_105: -1708760522
+      BloodSpriteFont2_106: 1676297398
+      BloodSpriteFont2_107: 2051174942
+      BloodSpriteFont2_108: -1234663432
+      BloodSpriteFont2_109: 2074870002
+      BloodSpriteFont2_11: 279926925
+      BloodSpriteFont2_110: -2056169831
+      BloodSpriteFont2_111: 348822027
+      BloodSpriteFont2_112: 367713701
+      BloodSpriteFont2_113: -235396865
+      BloodSpriteFont2_114: -1882285805
+      BloodSpriteFont2_115: 173182345
+      BloodSpriteFont2_116: 1635098140
+      BloodSpriteFont2_117: 1985236325
+      BloodSpriteFont2_118: 2038589037
+      BloodSpriteFont2_119: -1197699272
+      BloodSpriteFont2_12: 1474611902
+      BloodSpriteFont2_120: -297138282
+      BloodSpriteFont2_121: 1956253572
+      BloodSpriteFont2_122: 1425731061
+      BloodSpriteFont2_123: 1604701923
+      BloodSpriteFont2_124: -1833214140
+      BloodSpriteFont2_125: -2020226512
+      BloodSpriteFont2_126: -835586084
+      BloodSpriteFont2_127: 1428029398
+      BloodSpriteFont2_128: -130698445
+      BloodSpriteFont2_129: 1368311125
+      BloodSpriteFont2_13: 750503100
+      BloodSpriteFont2_130: -38436828
+      BloodSpriteFont2_131: -443635507
+      BloodSpriteFont2_132: -46744328
+      BloodSpriteFont2_133: -1389527018
+      BloodSpriteFont2_134: -2033845673
+      BloodSpriteFont2_135: 1223494838
+      BloodSpriteFont2_136: 1987055628
+      BloodSpriteFont2_137: 881301273
+      BloodSpriteFont2_138: 993886479
+      BloodSpriteFont2_139: -888164780
+      BloodSpriteFont2_14: -932889572
+      BloodSpriteFont2_140: -1948570882
+      BloodSpriteFont2_141: 37076152
+      BloodSpriteFont2_142: -711536949
+      BloodSpriteFont2_143: -1753361609
+      BloodSpriteFont2_144: 598434461
+      BloodSpriteFont2_145: -1181922917
+      BloodSpriteFont2_146: 1396773943
+      BloodSpriteFont2_147: -1670702060
+      BloodSpriteFont2_148: -1024266304
+      BloodSpriteFont2_149: -1591271171
+      BloodSpriteFont2_15: -1173927409
+      BloodSpriteFont2_150: -131041058
+      BloodSpriteFont2_151: 1846843139
+      BloodSpriteFont2_152: -1203666126
+      BloodSpriteFont2_153: -829523310
+      BloodSpriteFont2_154: -810953613
+      BloodSpriteFont2_155: 87772857
+      BloodSpriteFont2_156: -1887050120
+      BloodSpriteFont2_157: -1565442967
+      BloodSpriteFont2_158: -2106847029
+      BloodSpriteFont2_159: -419420740
+      BloodSpriteFont2_16: 248210715
+      BloodSpriteFont2_160: -967088100
+      BloodSpriteFont2_161: 1289256074
+      BloodSpriteFont2_162: 1638789195
+      BloodSpriteFont2_163: 193392738
+      BloodSpriteFont2_164: 68511738
+      BloodSpriteFont2_165: 145197070
+      BloodSpriteFont2_166: -1252161652
+      BloodSpriteFont2_167: -296873490
+      BloodSpriteFont2_168: -32395380
+      BloodSpriteFont2_169: 1783511208
+      BloodSpriteFont2_17: 1160393269
+      BloodSpriteFont2_170: -1618726633
+      BloodSpriteFont2_171: -1791538471
+      BloodSpriteFont2_172: 496853745
+      BloodSpriteFont2_173: -2101908814
+      BloodSpriteFont2_174: 1225932155
+      BloodSpriteFont2_175: -802812555
+      BloodSpriteFont2_176: -1173325250
+      BloodSpriteFont2_177: -1625367363
+      BloodSpriteFont2_178: 762879186
+      BloodSpriteFont2_179: -1860455717
+      BloodSpriteFont2_18: 1886080650
+      BloodSpriteFont2_180: 537215661
+      BloodSpriteFont2_181: 1413348294
+      BloodSpriteFont2_182: 511440091
+      BloodSpriteFont2_183: -1743952725
+      BloodSpriteFont2_184: 180330180
+      BloodSpriteFont2_185: -356410884
+      BloodSpriteFont2_186: 2024826706
+      BloodSpriteFont2_187: 1532728433
+      BloodSpriteFont2_188: 84610435
+      BloodSpriteFont2_189: -2035570043
+      BloodSpriteFont2_19: 958170313
+      BloodSpriteFont2_190: -537485945
+      BloodSpriteFont2_191: -1263353717
+      BloodSpriteFont2_192: 603299360
+      BloodSpriteFont2_193: 1878874653
+      BloodSpriteFont2_194: 2030977246
+      BloodSpriteFont2_195: 99721445
+      BloodSpriteFont2_196: -1979186574
+      BloodSpriteFont2_197: -1302676652
+      BloodSpriteFont2_198: 2095886185
+      BloodSpriteFont2_199: 1580164609
+      BloodSpriteFont2_2: -1218179943
+      BloodSpriteFont2_20: 1428359980
+      BloodSpriteFont2_200: -331450189
+      BloodSpriteFont2_201: -1079814276
+      BloodSpriteFont2_202: 454050693
+      BloodSpriteFont2_203: 541591724
+      BloodSpriteFont2_204: -1402713869
+      BloodSpriteFont2_205: 634423861
+      BloodSpriteFont2_206: -1662092855
+      BloodSpriteFont2_207: -2095120177
+      BloodSpriteFont2_208: 1955152131
+      BloodSpriteFont2_209: -1295261389
+      BloodSpriteFont2_21: -1032538691
+      BloodSpriteFont2_210: -490510216
+      BloodSpriteFont2_211: -1299061745
+      BloodSpriteFont2_212: 1808300719
+      BloodSpriteFont2_213: 428205822
+      BloodSpriteFont2_214: -1972148888
+      BloodSpriteFont2_215: -1509936678
+      BloodSpriteFont2_216: 116733312
+      BloodSpriteFont2_217: 208792002
+      BloodSpriteFont2_218: 850675306
+      BloodSpriteFont2_219: -10458733
+      BloodSpriteFont2_22: 233019511
+      BloodSpriteFont2_220: 1206158509
+      BloodSpriteFont2_221: 932296059
+      BloodSpriteFont2_222: -252131375
+      BloodSpriteFont2_223: -1781868812
+      BloodSpriteFont2_224: -130508160
+      BloodSpriteFont2_225: -2079654328
+      BloodSpriteFont2_226: 706129248
+      BloodSpriteFont2_227: 937915826
+      BloodSpriteFont2_228: 1165740340
+      BloodSpriteFont2_229: 1973758928
+      BloodSpriteFont2_23: 425262739
+      BloodSpriteFont2_230: 831442965
+      BloodSpriteFont2_231: 139099264
+      BloodSpriteFont2_232: 266007814
+      BloodSpriteFont2_233: 410647451
+      BloodSpriteFont2_24: 1664171645
+      BloodSpriteFont2_25: -1961062236
+      BloodSpriteFont2_26: -594025168
+      BloodSpriteFont2_27: -1995650573
+      BloodSpriteFont2_28: 52239053
+      BloodSpriteFont2_29: -1525971001
+      BloodSpriteFont2_3: 2145250872
+      BloodSpriteFont2_30: 684057334
+      BloodSpriteFont2_31: -1084159661
+      BloodSpriteFont2_32: 1137087540
+      BloodSpriteFont2_33: -1290273458
+      BloodSpriteFont2_34: 593323182
+      BloodSpriteFont2_35: -1710697782
+      BloodSpriteFont2_36: -1243161006
+      BloodSpriteFont2_37: -193164722
+      BloodSpriteFont2_38: -1652656962
+      BloodSpriteFont2_39: -581361454
+      BloodSpriteFont2_4: 1674777515
+      BloodSpriteFont2_40: 1864826231
+      BloodSpriteFont2_41: 696959908
+      BloodSpriteFont2_42: -941086118
+      BloodSpriteFont2_43: -401698700
+      BloodSpriteFont2_44: 1434748789
+      BloodSpriteFont2_45: 1159662064
+      BloodSpriteFont2_46: 693525260
+      BloodSpriteFont2_47: 1705879625
+      BloodSpriteFont2_48: 1518930731
+      BloodSpriteFont2_49: 269649159
+      BloodSpriteFont2_5: 730082490
+      BloodSpriteFont2_50: -1696352397
+      BloodSpriteFont2_51: 893200198
+      BloodSpriteFont2_52: 686451057
+      BloodSpriteFont2_53: 348970425
+      BloodSpriteFont2_54: 1882050297
+      BloodSpriteFont2_55: 1287823656
+      BloodSpriteFont2_56: -1475759193
+      BloodSpriteFont2_57: 1154257870
+      BloodSpriteFont2_58: -1091416984
+      BloodSpriteFont2_59: -374189380
+      BloodSpriteFont2_6: -554582665
+      BloodSpriteFont2_60: 260806080
+      BloodSpriteFont2_61: -1120925938
+      BloodSpriteFont2_62: -2023364994
+      BloodSpriteFont2_63: 1877258652
+      BloodSpriteFont2_64: -172039765
+      BloodSpriteFont2_65: 1215804174
+      BloodSpriteFont2_66: 1313964436
+      BloodSpriteFont2_67: -693574156
+      BloodSpriteFont2_68: 1455760399
+      BloodSpriteFont2_69: 1324876226
+      BloodSpriteFont2_7: -1635691426
+      BloodSpriteFont2_70: 1789255349
+      BloodSpriteFont2_71: 185643321
+      BloodSpriteFont2_72: 855749319
+      BloodSpriteFont2_73: -1757275789
+      BloodSpriteFont2_74: 1015424026
+      BloodSpriteFont2_75: -1947900830
+      BloodSpriteFont2_76: -909202097
+      BloodSpriteFont2_77: -1259387839
+      BloodSpriteFont2_78: 1578701782
+      BloodSpriteFont2_79: -1692714632
+      BloodSpriteFont2_8: 2110967597
+      BloodSpriteFont2_80: -2060592836
+      BloodSpriteFont2_81: -1540126693
+      BloodSpriteFont2_82: 559146912
+      BloodSpriteFont2_83: 1417942567
+      BloodSpriteFont2_84: 1297044583
+      BloodSpriteFont2_85: 1419029818
+      BloodSpriteFont2_86: 350601640
+      BloodSpriteFont2_87: -675495126
+      BloodSpriteFont2_88: -1414202005
+      BloodSpriteFont2_89: 76468382
+      BloodSpriteFont2_9: 943499225
+      BloodSpriteFont2_90: -1827083219
+      BloodSpriteFont2_91: -406705696
+      BloodSpriteFont2_92: 1417181719
+      BloodSpriteFont2_93: -1097151450
+      BloodSpriteFont2_94: 1222736329
+      BloodSpriteFont2_95: 1229612545
+      BloodSpriteFont2_96: -1048155162
+      BloodSpriteFont2_97: 1485850456
+      BloodSpriteFont2_98: -181583778
+      BloodSpriteFont2_99: -1759296149
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

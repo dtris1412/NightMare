@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     /*IEnumerator LoadScenes()
@@ -37,5 +37,6 @@ public class GameController : MonoBehaviour
     {
         LoadScenes();
     }*/
-    
+
+
 }

@@ -10,12 +10,12 @@ public class LightController : MonoBehaviour
     SpriteRenderer sr;
     public Sprite passive, active;
     public GameObject theLight;
-    
+
+    public bool canUse;
     public bool isTurnOn;
     Player m_pl;
-    public bool canUse;
+    
 
-    // Start is called before the first frame update
     void Start()
     {
         m_pl = FindObjectOfType<Player>();
@@ -37,10 +37,7 @@ public class LightController : MonoBehaviour
             TurnOnTheLight();
             isTurnOn = true;
         }
-        else
-        {
-            Debug.Log("False");
-        }
+
     }
     public void SetGlobalLight( float value)
     {
@@ -51,7 +48,7 @@ public class LightController : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Không tìm thấy thành phần Light 2d trong đối tượng globalLight");
+            Debug.LogError("Loi");
         }
     }
     public void TurnOffTheLight()

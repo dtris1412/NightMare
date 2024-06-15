@@ -47,7 +47,6 @@ namespace Inventory.Model
             return quantity;
 
         }
-
         private int AddItemToFirstFreeSlot(ItemSO item, int quantity, List<ItemParameter> itemState = null)
         {
             InventoryItem newItem = new InventoryItem

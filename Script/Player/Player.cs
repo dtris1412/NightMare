@@ -3,61 +3,66 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Analytics;
+using UnityEngine.Purchasing;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
-{ 
-    // Start is called before the first frame update
+{
+    public bool canMove = true;
     public Animator anim;
+    Rigidbody2D m_rb;
     private float speed = 4f;
-
     public float OffsetY { get; private set; } = 0.3f;
-    
+    public Transform playerTransform;
+    public float playerRadius;
 
-    public Vector2 targetPosition1;
-    public Vector2 targetPosition2;
-    public Vector2 targetPosition3;
+    bool isLightTurnOn = false;
+    public GameObject Light;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform Check;
-    [SerializeField] private LayerMask npcLayer;
+    [SerializeField] private LayerMask questLayer;
     [SerializeField] private LayerMask houseLayer;
     [SerializeField] private LayerMask lightBottonLayer;
-
-    [SerializeField] public Health healthBar;
-    public float currentHealth;
-    public float maxHealth;
-    public bool canMove = true;
-    //public bool isInHouse;
+    [SerializeField] private LayerMask flashLightLayer;
 
     UIManager m_ui;
     GameController m_gc;
-    GameObject player;
-    
+    public GameObject player;
+    public GameObject flashLight;
+    bool isTookFL;
+    public bool canUseFL = false;
+    public float coolDown = 5f;
     LightController m_lc;
     MNGameController mn_gc;
     Laptop lap;
+    Paper paper;
+    MapManager m_map;
+    FlashLight fl;
     
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        fl = FindObjectOfType<FlashLight>();
         anim = GetComponent<Animator>();
+        m_rb = GetComponent<Rigidbody2D>();
         m_ui = FindObjectOfType<UIManager>();
         m_gc = FindObjectOfType<GameController>();
         m_lc = FindObjectOfType<LightController>();
         mn_gc = FindObjectOfType<MNGameController>();
         lap = FindObjectOfType<Laptop>();
-        
+        m_map = FindObjectOfType<MapManager>();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if(player != null)
-        {
-            player.transform.position = targetPosition1;
-        }
+        paper = FindObjectOfType<Paper>();
     }
-
-    // Update is called once per frame
     void Update()
     {
+       
+        if (Input.GetKeyDown(KeyCode.E) && canUseFL == true )
+        {
+            UseFlashLight();
+            
+        }
         if(canMove)
         {
             Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
@@ -66,30 +71,38 @@ public class Player : MonoBehaviour
             anim.SetFloat("Magnitude", movement.magnitude);
             transform.position = transform.position + movement * speed * Time.deltaTime;
         }
-
-        if(CheckDots() == true)
+/*
+        if (CheckQuest() == true)
         {
+            
             m_ui.ShowDots(true);
-        }
-        else
+        }*/
+ /*       else
         {
             m_ui.ShowDots(false);
-        }
-       
+        }*/
     }
     public void Awake()
     {
         SetPositionAndSnapToTile(transform.position);
     }
 
-    public bool CheckDots()
+    public bool CheckQuest()
     {
-        return Physics2D.OverlapCircle(Check.position, 1f, npcLayer);
+        Vector2 checkPosition = playerTransform.position;
+        float checkRadius = playerRadius;
+        return Physics2D.OverlapCircle(checkPosition, checkRadius, questLayer);
+        
     }
     public bool IsLightBotton()
     {
         return Physics2D.OverlapCircle(Check.position, 0.5f, lightBottonLayer);
     }
+    public bool IsFlashLight()
+    {
+        return Physics2D.OverlapCircle(Check.position, 0.5f, flashLightLayer);
+    }
+    
     public void SetPositionAndSnapToTile(Vector2 pos)
     {
         
@@ -97,22 +110,40 @@ public class Player : MonoBehaviour
         pos.y = Mathf.Floor(pos.y) + 0.5f + OffsetY;
         transform.position = pos;
     }
-    public void AddHealth(float value)
+
+    public void UseFlashLight()
     {
-        
-        currentHealth = Mathf.Clamp(currentHealth + value, 0f, maxHealth);
-        if (currentHealth >= maxHealth)
-            return;
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        if (isLightTurnOn == false)
+        {
+            Light.SetActive(true);
+            isLightTurnOn = true;
+            StartCoroutine(TurnOffFlashLight(6f));
+            StartCoroutine(CoolDown(10f));
+        }
+        else
+        {
+            Debug.Log("Den da tat");
+        }
     }
-    public void OnMouseDown()
+    IEnumerator TurnOffFlashLight(float value)
     {
-        currentHealth -= 2;
-        if (currentHealth <= -1)
-            return;
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        yield return new WaitForSeconds(value);
+        Light.SetActive(false);
+        isLightTurnOn = false;
+        coolDown = 5f;
     }
-
-
-
+    IEnumerator CoolDown(float value)
+    {
+        canUseFL = false;
+        yield return new WaitForSeconds(value);
+        canUseFL = true;
+    }
+    public void TakeFlashLight()
+    {
+        flashLight.SetActive(false);
+        Destroy(fl);
+        isTookFL = true;
+        canUseFL = true;
+        Debug.Log("Code takeflashlight is running");
+    }
 }

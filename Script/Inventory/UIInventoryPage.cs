@@ -25,6 +25,7 @@ namespace Inventory.UI
 
         private void Awake()
         {
+            //DontDestroyOnLoad(gameObject);
             Hide();
             mouseFollower.Toggle(false);
             itemDescription.ResetDescription();
